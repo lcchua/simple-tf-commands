@@ -3,5 +3,5 @@ variable "text" {
 }
 
 output "uppercase_text" {
-  value = upper(var.text)
+  value = lower(var.text)
 }

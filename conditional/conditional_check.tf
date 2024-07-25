@@ -1,5 +1,5 @@
 variable "is_production" {
-  default = false
+  default = true
 }
 
 output "environment_message" {
